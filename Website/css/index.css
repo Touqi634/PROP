@@ -1,0 +1,619 @@
+body{
+	font: 400 14px MT Bodoni mt black;
+	margin: 0;
+}
+header{
+	background: url(../image/background1.jpg) no-repeat center fixed;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+}
+.title-alt{
+	font-size: 40px;
+	text-align: center;
+}
+.ticket-alt{
+	color: white;
+}
+
+.col-4{
+	margin-left: 40px;
+}
+.bckgrnd-account{
+	background: #8A2387; 
+	background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);
+	background: linear-gradient(to right, #F27121, #E94057, #8A2387); 
+	border-bottom: 0px solid #f5f5f5;
+	border-top: 0px solid #f5f5f5;
+	margin-left: 0px;
+    height: 500px;
+	border-bottom: 1px solid #f5f5f5;
+	
+}
+.bckgrnd-second{
+	background: linear-gradient(79deg, #f27121, #e94057, #8a2387);
+	background-size: 600% 600%;
+
+	-moz-animation: AnimationName 14s ease infinite;
+	-o-animation: AnimationName 14s ease infinite;
+	animation: AnimationName 14s ease infinite;
+	
+	border-bottom: 0px solid #f5f5f5;
+	border-top: 0px solid #f5f5f5;
+	margin-left: 0px;	
+	
+    height: 500px;
+	border-top: 1px solid #f5f5f5;	
+}
+
+.bckgrnd-camping1 {
+    background: url(../image/camp.jpg) no-repeat center fixed;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid #f5f5f5;
+    margin-left: 0px;
+}
+
+.bckgrnd-camping{
+	background: url(../image/camp.jpg) no-repeat center fixed;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	border-top: 2px solid #f5f5f5;
+	margin-left: 0px;
+	height: 500px;
+}
+
+.tickets{
+    display: flex;	
+	/*flex-wrap: wrap; Use this for mobile version !!!!!!!!!!!!!!!!!!!*/
+	margin-top: 5px;
+}
+.col-5{
+	margin-right: 5%;
+    width: 450px;
+}
+.ticket-box a {
+    text-decoration: none;
+}
+
+.ticket-box {
+    border-radius: 15px;
+    border: 2px solid white;
+    width: 99%;
+    height: 70%;
+	background: rgba(245,245,220, .8);
+}
+
+.ticket-box div:last-child {
+    text-align: center;
+    border: none;
+}
+.ticket-box h2{
+	font-size: 30px;
+}
+.ticket-box h3{
+	font-size: 20px;
+}
+.ticket-box h2, h3{
+    text-align: center;
+}
+.ticket-box ul {
+    list-style: none;
+	text-align: center;
+	padding: 0;
+	font-size: 20px;
+}
+/*End ticket section */
+
+.bckgrnd-tickets {
+	/*background: #0B486B;  /* fallback for old browsers */
+	/*background: -webkit-linear-gradient(to right, #F56217, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
+	/*background: linear-gradient(to right, #F56217, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: url(../image/camp.jpg) no-repeat center fixed;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	border-bottom: 1px solid #f5f5f5;
+	border-top: 1px solid #f5f5f5;
+	margin-left: 0px;
+	height: 500px;
+}
+
+.bckgrnd-aboutus{
+	background: url(../image/backGD.jpg) no-repeat center fixed;
+	/*background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);
+	background: linear-gradient(to right, #F27121, #E94057, #8A2387); */
+	border-bottom: 0px solid #f5f5f5; 
+	border-top: 0px solid #f5f5f5;
+	margin-left: 0px;
+    height: 500px;
+}
+.bckgrnd-lineup{
+	/*background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);
+	background: linear-gradient(to right, #F27121, #E94057, #8A2387); */
+	background: linear-gradient(79deg, #f27121, #e94057, #8a2387);
+	background-size: 600% 600%;
+
+	-moz-animation: AnimationName 14s ease infinite;
+	-o-animation: AnimationName 14s ease infinite;
+	animation: AnimationName 14s ease infinite;
+	
+	border-bottom: 0px solid #f5f5f5;
+	border-top: 0px solid #f5f5f5;
+	margin-left: 0px;	
+}
+@-moz-keyframes AnimationName {
+    20%{background-position:30% 50%}
+    40%{background-position:80% 50%}
+    100%{background-position:30% 50%}
+}
+@-o-keyframes AnimationName {
+    20%{background-position:30% 50%}
+    40%{background-position:80% 50%}
+    100%{background-position:30% 50%}
+}
+@keyframes AnimationName { 
+    20%{background-position:30% 50%}
+    40%{background-position:80% 50%}
+   100%{background-position:30% 50%}
+}
+
+.bckgrnd-footer{
+	border-top: 1px solid #f5f5f5;
+	background: #0B486B;
+	background: -webkit-linear-gradient(to right, #F56217, #0B486B);
+	background: linear-gradient(to right, #F56217, #0B486B);
+}
+.col-12, .col-6{
+	margin: 0 auto;
+}
+.col-10{
+	margin: 0 auto;
+}
+.about-soundV h1{
+	text-align: center;
+}
+.about-soundV{
+	float: left;
+	width: 1500px;
+}
+.about-detail h1{
+	text-align: center;
+}
+.about-detail{
+	float: right;
+	margin-left: 200px;
+}
+.ulList{
+	list-style: none;
+	font-size: 32px;
+	text-align: center;
+}
+.h1{
+	font-size: 30px;
+}
+
+/*END of sections*/
+
+.footerSocial{
+	margin-left: 20px;
+}
+
+.copyRight{
+	margin: auto;
+	margin-bottom: 0px;
+	padding-right: 12%;
+}
+
+.list-unstyled{
+	list-style: none;
+	padding: 0;
+}
+
+footer{
+ flex-shrink: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/*END of footer*/
+.divJump{
+	margin-top: -80;
+}
+.divLogo{
+	width: 100%;
+	height: 100px;
+}
+.logonav div{
+	float:right;
+}
+.logonav
+{
+     position:absolute;
+}
+
+.logo{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	height: 500px;
+	margin-top: -250px;  /*Half the height */
+	margin-left: -250px; /* Half the width */
+}
+.divnav1{
+     
+    left: 28%;
+    z-index: 500;
+}
+.divnav{
+	padding-top: 2%;
+	/*position: fixed; This is to make the navigation bar go down with the page!*/
+    left: 28%;
+    z-index: 500;
+}
+
+.main-nav
+{
+	text-align: center;
+    list-style: none;	
+}
+
+.main-nav a
+{
+	font-size: 20px;		
+}
+
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+    
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "ARIAL", sans-serif;
+    font-size: 30px;
+}
+
+/*END of NavigationBar*/
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+/*Buttons*/
+.btnBuy{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+	background-color: black;
+    color: Red;
+	margin-bottom: 5%;
+	font-size: 20;
+	margin-top: 18px;
+}
+
+.btnBuy:hover{
+	background-color: #494949;
+}
+
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+	background-color: black;
+    color: Red;
+	margin-bottom: 5%;
+}
+
+.btn-primary {
+    color: #fff;
+    text-decoration: none;
+    background-color: #d7bc00;
+    border-color: #d7bc00;
+}
+.btn-green {
+    color: #fff;
+    text-decoration: none;
+    background-color: #28a745;
+    border-color: #d7bc00;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #28a745!important;
+    border-color: #0062cc
+}
+/*End of buttons*/
+
+/*LoginPage*/
+
+.loginH1{
+	margin-top: 5%;
+}
+
+.contentLogin{
+	background:rgba(255,255,255, 0.85);
+	border: 3px solid #b35900;
+	text-align: center;
+	width: 500px;
+}
+
+.contentRegister{
+	background:rgba(255,255,255, 0.85);	
+	border: 3px solid #b35900;
+	text-align: center;
+	width: 500px;
+	margin-top: 20%;
+}
+
+.contentTicket{
+	background:rgba(255,255,255, 0.85);
+	border: 3px solid #6d5e4f;
+	text-align: center;
+	width: 1300px;
+    margin-top: 8%;
+}
+
+.contentCamping{
+	background:rgba(255,255,255, 0.85);
+	border: 3px solid #6d5e4f;
+	text-align: center;
+	width: 500px;
+	margin-top: 20%;
+}
+
+.container{
+	margin-top: 10px;
+}
+
+.btnCamp{
+	display:flex;
+    flex-direction:column;
+	clear: both;
+}
+
+/*This .formTickets is to make the input field show vertically in columns and inside you can use divs to put them horizontally on the website*/
+.formTickets{
+	display: flex;
+    flex-direction: column;
+}
+/*This is for the days selection 1,2,3.*/
+.selectNrDays{
+	margin-left: 67;
+    margin-right: 65.5;
+}
+
+.inputTick1{
+	margin-left: 250px;
+    margin-right: 0;
+	width: 300px;
+	padding: 12px 20px;
+	display:block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	font-size: 17px;
+}
+
+.inputTick2{
+	margin-left: 200px;
+	width: 300px;
+	padding: 12px 20px;
+	display:block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	font-size: 17px;
+}
+/* This is to give the label of "Ticket1, Ticket2 and so on... as a title"*/
+.infoTick1{
+	display: block;
+    float: left;
+    width: 300px;
+	margin-left: 55px;
+	font-size: 20px
+	/*Ticket 1 NameTag/title */
+}
+.infoTick2{
+	font-size: 20px;
+	display: block;
+    float: left;
+    width: 300;
+	margin-left: 140px;
+	/*Ticket 1 NameTag/title */
+}
+
+.info2Tick1{
+	font-size: 20px;
+	display: block;
+    float: left;
+    width: 300;
+	margin-left: 240px;
+	/*Ticket 2 NameTag/title */
+}
+.info2Tick2{
+	font-size: 20px;
+	display: block;
+    float: left;
+    width: 300;
+	margin-left: 210px;
+	/*Ticket 2 NameTag/title */
+}
+
+.infoTick3{
+	font-size: 20px;
+	display: block;
+    float: left;
+    width: 300px;
+	margin-left: 140px;
+	/*Ticket 3 NameTag/title */
+}
+/*Here the titles stops*/
+
+/*This .ticket is to make the input field show horizontally on the website*/
+.Ticket{
+	display:flex;
+    flex-direction:row;
+}
+
+
+input[type=text], input[type=password], input[type=email] , textarea, input[type=submit],select {
+	width: 300px;
+	padding: 12px 20px;
+	margin: 0 auto;
+	display:block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	font-size: 17px;
+}
+
+input[type=radio]{
+	display: inline-block;
+}
+
+button {
+	background-color: #8a4343;
+    color: white;
+    padding: 14px 20px;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    display: block;
+    font-size: 20;
+    margin-top: 1%;
+}
+/*END loginPage*/
+
+/*Logo heartBeat*/
+@keyframes beat{
+	to { transform: scale(1.2); }
+}
+.logo{
+	animation: beat .50s infinite alternate;
+	transform-origin: center;
+	-webkit-animation: beat .50s infinite alternate;
+	-moz-animation: beat .50s infinite alternate;
+	-ms-animation: beat .50s infinite alternate;
+	-o-animation: beat .50s infinite alternate;
+	animation: beat .50s infinite alternate;
+
+	-webkit-transform-origin: center;
+	-moz-transform-origin: center;
+	-o-transform-origin: center;
+	-ms-transform-origin: center;
+	transform-origin: center;
+}
+/* End heart beat animation */
+
+/*Button goToTop*/
+#btnGoTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  width: 70px;
+}
+
+#btnGoTop:hover {
+  background-color: #555;
+}
+/*Button goToTop*/
+
+/*Artist information*/
+.artistName{
+	text-align: center;
+}
+.artistTag{
+	font-size: 30px;
+	text-align: center;
+}
+
+.containerA {
+  position: relative;
+  width: 50%;
+}
+
+.overlayA {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  width: 280px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.containerA:hover .overlayA {
+  opacity: 0.8;
+}
+
+.textA {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.artist-member{
+	margin-right: 5px;
+}
+
+.img-fluid{
+	border-radius: 50%;
+}
+
+/*End artist information*/
